@@ -5,6 +5,12 @@
     <ClCompile Include="BaseApp.cpp">
       <Filter>Core</Filter>
     </ClCompile>
+    <ClCompile Include="RenderApp.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -14,6 +20,12 @@
     <ClInclude Include="BaseApp.h">
       <Filter>Core</Filter>
     </ClInclude>
+    <ClInclude Include="RenderApp.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Core">
@@ -21,6 +33,9 @@
     </Filter>
     <Filter Include="App">
       <UniqueIdentifier>{6fe40fe9-e3ad-4930-9e9c-7901e9a8a2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{9ceec541-d26f-4dfc-9466-54f5e8539915}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -3,9 +3,45 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="GameApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="glHelpers.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Wad.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="GameApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="glHelpers.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Wad.h">
+      <Filter>App</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="App">

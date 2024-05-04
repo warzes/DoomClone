@@ -10,3 +10,4 @@
 #	pragma warning(pop)
 #endif
 
+#include "Engine/EngineApp.h"

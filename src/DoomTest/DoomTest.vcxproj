@@ -95,14 +95,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="glHelpers.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Vec.cpp" />
+    <ClCompile Include="Wad.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="glHelpers.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Renderer.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Vec.h" />
+    <ClInclude Include="Wad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
